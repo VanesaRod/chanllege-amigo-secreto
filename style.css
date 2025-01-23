@@ -70,3 +70,44 @@ p {
   font-weight: bold;
   color: #333;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  button {
+    padding: 8px 10px;
+    font-size: 0.8rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
